@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "in this server i creat sam api for my contact app..",
+  "license": "ISC",
+  "author": "Mashhudur Rahman.",
+  "type": "commonjs",
+"main": "src/app.js",
+"scripts": {
+  "start": "node SERVER.js"
+}
+,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^8.4.0"
+  }
+}
