@@ -7,7 +7,7 @@ const cors = require('cors')
 
 app.use(express.json());
 app.use(cors({
-  origin: 'https://as-5-backend.vercel.app',
+  origin: 'http://localhost:5173',
   credentials: true,
 }));
 
